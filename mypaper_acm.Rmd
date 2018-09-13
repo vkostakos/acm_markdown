@@ -13,11 +13,6 @@ author:
         state: VIC
         postcode: 3006
         country: Australia
-      - institution: University of Oulu
-        streetaddress: Erkki Koiso-Kanttilan katu 3, door E
-        city: Oulu
-        postcode: 90570
-        country: Finland
   - name: Denzil Ferreira
   - name: Simo Hosio
   - name: Timo Ojala
@@ -45,6 +40,11 @@ author:
       - institution: Inria Paris-Rocquencourt
         city: Rocquencourt
         country: France
+      - institution: University of Oulu
+        streetaddress: Erkki Koiso-Kanttilan katu 3, door E
+        city: Oulu
+        postcode: 90570
+        country: Finland
   - name: Jorge Goncalves
   - name: Eduardo Velloso
     email: firtname.lastname\@oulu.fi #note the backslash before the "@" character  

@@ -1,0 +1,203 @@
+---
+title: The best paper ever
+#titlenote: This is a comment on the title
+author:
+  - name: Vassilis Kostakos
+    authornote: Corresponding author
+    orcid: 000-0003-2804-6038
+    email: vassilis.kostakos\@unimelb.edu.au #note the backslash before the "@" character
+    affiliation: 
+      - institution: University of Melbourne
+        streetaddress: Doug McDonell Building 168
+        city: Melbourne
+        state: VIC
+        postcode: 3006
+        country: Australia
+      - institution: University of Oulu
+        streetaddress: Erkki Koiso-Kanttilan katu 3, door E
+        city: Oulu
+        postcode: 90570
+        country: Finland
+  - name: Denzil Ferreira
+  - name: Simo Hosio
+  - name: Timo Ojala
+    email: firtname.lastname\@oulu.fi #note the backslash before the "@" character  
+    affiliation: 
+      - institution: University of Oulu
+        streetaddress: Erkki Koiso-Kanttilan katu 3, door E
+        city: Oulu
+        postcode: 90570
+        country: Finland
+  - name: Gang Zhou
+    orcid: 1234-5678-9012-3456
+    email: gang_zhou\@wm.edu #note the backslash before the "@" character
+    affiliation: 
+      - institution: College of William and Mary
+        streetaddress: 104 Jamestown Rd
+        city: Williamsburg
+        state: VA
+        postcode: 23185
+        country: USA
+  - name: Valerie Beranger
+    orcid: 1234-5678-9012-3456
+    email: beranger\@inria.fr #note the backslash before the "@" character
+    affiliation: 
+      - institution: Inria Paris-Rocquencourt
+        city: Rocquencourt
+        country: France
+  - name: Jorge Goncalves
+  - name: Eduardo Velloso
+    email: firtname.lastname\@oulu.fi #note the backslash before the "@" character  
+    affiliation: 
+      - institution: University of Melbourne
+        streetaddress: Doug McDonell Building 168
+        city: Melbourne
+        state: VIC
+        postcode: 3006
+        country: Australia
+#use the line below if the author list is too long to fit in the header
+shortauthors: Kostakos et al.
+abstract: |
+ Multifrequency media access control has been well understood in
+ general wireless ad hoc networks, while in wireless sensor networks,
+keywords: one, two, three
+
+#metadata for the paper
+DOI: XXXXX.XXXXX
+# Check the tool at http://dl.acm.org/ccs.cfm to get the right codes
+ccsdesc:
+  - id: 500
+    category: Human-centered computing
+    subcategory: Human computer interaction (HCI)
+  - id: 300
+    category: Human-centered computing
+    subcategory: Ubiquitous and mobile computing
+  - id: 100
+    category: Security and privacy
+    subcategory: Network security
+bibliography: sample-bibliography
+
+#available classes: manuscript, acmsmall, acmlarge, acmtog, sigconf, siggraph, sigplan, sigchi, sigchi-a
+class: sigchi
+
+#the following options are relevant if the class used above is for a journal
+journal:
+  #the name of the journal, e.g. IMWUT, PACMHCI, TOCHI, TACCESS, etc.
+  name: IMWUT
+  volume: 9
+  issue: 4
+  article: 39
+  year: 2018
+  month: 3
+  sequence: 11
+
+#the following options are relevant if the class used above is for a conference
+conference:
+    shortname: CHI'19
+    longname: ACM CHI Conference on Human Factors in Computing Systems
+    date: April 2019
+    year: 2019
+    article: 129
+    location: Glasgow, UK 
+    price: 15.00
+
+history:
+  - received: February 2007
+  - received: March 2009
+  - received: June 2009
+    accepted: false
+#possible copyrights: acmcopyright, acmlicensed, rightsretained, usgov, usgovmixed, cagov, cagovmixed 
+copyright: acmlicensed
+output: 
+  pdf_document: 
+    template: rmd-to-tex.tex
+    keep_tex: true
+    pandoc_args: ["--natbib"]
+---
+
+# Introduction 
+Lorem ipsum dolor sit [@RN10724] amet, consectetur adipiscing [@Douglass98] elit. Pellentesque rhoncus ut tellus eu tristique. Duis pharetra velit vitae viverra elementum. Nulla metus dui, pulvinar id enim at, pellentesque semper ipsum. Phasellus cursus dignissim ipsum, sed congue orci pretium quis. Maecenas rhoncus leo a cursus euismod. Fusce a erat eu ipsum tristique tempus at sed tortor. Aliquam erat volutpat. Donec at pretium lorem. Donec pretium nunc id nunc bibendum convallis. Phasellus quis enim id massa feugiat egestas hendrerit sollicitudin nibh. Sed blandit eros id tellus porta, eget ullamcorper urna posuere. Pellentesque laoreet lacus nibh, a mattis libero viverra sit amet. Sed vitae diam interdum, pharetra neque sit amet, dictum lectus.
+
+Lorem ipsum dolor sit [@RN10724] amet, consectetur adipiscing [@Douglass98] elit. Pellentesque rhoncus ut tellus eu tristique. Duis pharetra velit vitae viverra elementum. Nulla metus dui, pulvinar id enim at, pellentesque semper ipsum. Phasellus cursus dignissim ipsum, sed congue orci pretium quis. Maecenas rhoncus leo a cursus euismod. Fusce a erat eu ipsum tristique tempus at sed tortor. Aliquam erat volutpat. Donec at pretium lorem. Donec pretium nunc id nunc bibendum convallis. Phasellus quis enim id massa feugiat egestas hendrerit sollicitudin nibh. Sed blandit eros id tellus porta, eget ullamcorper urna posuere. Pellentesque laoreet lacus nibh, a mattis libero viverra sit amet. Sed vitae diam interdum, pharetra neque sit amet, dictum lectus.
+
+Lorem ipsum dolor sit [@RN10724] amet, consectetur adipiscing [@Douglass98] elit. Pellentesque rhoncus ut tellus eu tristique. Duis pharetra velit vitae viverra elementum. Nulla metus dui, pulvinar id enim at, pellentesque semper ipsum. Phasellus cursus dignissim ipsum, sed congue orci pretium quis. Maecenas rhoncus leo a cursus euismod. Fusce a erat eu ipsum tristique tempus at sed tortor. Aliquam erat volutpat. Donec at pretium lorem. Donec pretium nunc id nunc bibendum convallis. Phasellus quis enim id massa feugiat egestas hendrerit sollicitudin nibh. Sed blandit eros id tellus porta, eget ullamcorper urna posuere. Pellentesque laoreet lacus nibh, a mattis libero viverra sit amet. Sed vitae diam interdum, pharetra neque sit amet, dictum lectus.
+
+Lorem ipsum dolor sit [@RN10724] amet, consectetur adipiscing [@Douglass98] elit. Pellentesque rhoncus ut tellus eu tristique. Duis pharetra velit vitae viverra elementum. Nulla metus dui, pulvinar id enim at, pellentesque semper ipsum. Phasellus cursus dignissim ipsum, sed congue orci pretium quis. Maecenas rhoncus leo a cursus euismod. Fusce a erat eu ipsum tristique tempus at sed tortor. Aliquam erat volutpat. Donec at pretium lorem. Donec pretium nunc id nunc bibendum convallis. Phasellus quis enim id massa feugiat egestas hendrerit sollicitudin nibh. Sed blandit eros id tellus porta, eget ullamcorper urna posuere. Pellentesque laoreet lacus nibh, a mattis libero viverra sit amet. Sed vitae diam interdum, pharetra neque sit amet, dictum lectus.
+
+Lorem ipsum dolor sit [@384253] amet, consectetur adipiscing [@Douglass98] elit. Pellentesque rhoncus ut tellus eu tristique. Duis pharetra velit vitae viverra elementum. Nulla metus dui, pulvinar id enim at, pellentesque semper ipsum. Phasellus cursus dignissim ipsum, sed congue orci pretium quis. Maecenas rhoncus leo a cursus euismod. Fusce a erat eu ipsum tristique tempus at sed tortor. Aliquam erat volutpat. Donec at pretium lorem. Donec pretium nunc id nunc bibendum convallis. Phasellus quis enim id massa feugiat egestas hendrerit sollicitudin nibh. Sed blandit eros id tellus porta, eget ullamcorper urna posuere. Pellentesque laoreet lacus nibh, a mattis libero viverra sit amet. Sed vitae diam interdum, pharetra neque sit amet, dictum lectus.
+
+
+```{r echo=FALSE, fig.width=3.5, fig.height=3, fig.cap = "This is a dynamically generated graph\\label{fig:plot}"}
+df <- data.frame(x = rnorm(30), y = rnorm(30))
+plot(df$x, df$y, xlab = "x-axis", ylab = "y-axis")
+```
+
+Donec massa justo, ultricies quis facilisis sed, tristique nec metus. Vestibulum id condimentum diam. Integer semper augue id porttitor ultrices. Cras vulputate felis eu diam porttitor, ac pulvinar nisi imperdiet. Donec eros felis, imperdiet vel malesuada at, varius et quam. Phasellus facilisis non risus eu placerat. Sed ac mollis lorem.
+
+## Evaluation
+Nullam semper imperdiet orci, at lacinia est aliquet et. Sed justo nibh, aliquet et velit at, pharetra consequat velit. Nullam nec ligula sagittis, adipiscing nisl sed, varius massa. Mauris quam ante, aliquet a nunc et, faucibus imperdiet libero.
+
+<!-- ```{block, type='sidebar'} -->
+<!-- This type of sidebar works with the sigchi-a template. It does not work with other templates. -->
+<!-- ``` -->
+
+Suspendisse odio tortor, bibendum vel semper sit amet, euismod ac ante. Nunc nec dignissim turpis, ac blandit massa. Donec auctor massa ac vestibulum aliquam. Fusce auctor dictum lobortis. Vivamus tortor augue, convallis quis augue sit amet, laoreet tristique quam. Donec id volutpat orci. Suspendisse at mi vel elit accumsan porta ac ut diam. Nulla ut dapibus quam. Suspendisse odio tortor, bibendum vel semper sit amet, euismod ac ante. Nunc nec dignissim turpis, ac blandit massa. Donec auctor massa ac vestibulum aliquam. Fusce auctor dictum lobortis. Vivamus tortor augue, convallis quis augue sit amet, laoreet tristique quam. Donec id volutpat orci. Suspendisse at mi vel elit accumsan porta ac ut diam. Nulla ut dapibus quam. Suspendisse odio tortor, bibendum vel semper sit amet, euismod ac ante. Nunc nec dignissim turpis, ac blandit massa. Donec auctor massa ac vestibulum aliquam. Fusce auctor dictum lobortis. Vivamus tortor augue, convallis quis augue sit amet, laoreet tristique quam. Donec id volutpat orci. Suspendisse at mi vel elit accumsan porta ac ut diam. Nulla ut dapibus quam.
+
+Suspendisse odio tortor, bibendum vel semper sit amet, euismod ac ante. Nunc nec dignissim turpis, ac blandit massa. Donec auctor massa ac vestibulum aliquam. Fusce auctor dictum lobortis. Vivamus tortor augue, convallis quis augue sit amet, laoreet tristique quam. Donec id volutpat orci. Suspendisse at mi vel elit accumsan porta ac ut diam. Nulla ut dapibus quam. Suspendisse odio tortor, bibendum vel semper sit amet, euismod ac ante. Nunc nec dignissim turpis, ac blandit massa. Donec auctor massa ac vestibulum aliquam. Fusce auctor dictum lobortis. Vivamus tortor augue, convallis quis augue sit amet, laoreet tristique quam. Donec id volutpat orci. Suspendisse at mi vel elit accumsan porta ac ut diam. Nulla ut dapibus quam. Suspendisse odio tortor, bibendum vel semper sit amet, euismod ac ante. Nunc nec dignissim turpis, ac blandit massa. Donec auctor massa ac vestibulum aliquam. Fusce auctor dictum lobortis. Vivamus tortor augue, convallis quis augue sit amet, laoreet tristique quam. Donec id volutpat orci. Suspendisse at mi vel elit accumsan porta ac ut diam. Nulla ut dapibus quam.
+
+Suspendisse odio tortor, bibendum vel semper sit amet, euismod ac ante. Nunc nec dignissim turpis, ac blandit massa. Donec auctor massa ac vestibulum aliquam. Fusce auctor dictum lobortis. Vivamus tortor augue, convallis quis augue sit amet, laoreet tristique quam. Donec id volutpat orci. Suspendisse at mi vel elit accumsan porta ac ut diam. Nulla ut dapibus quam.Suspendisse odio tortor, bibendum vel semper sit amet, euismod ac ante. Nunc nec dignissim turpis, ac blandit massa. Donec auctor massa ac vestibulum aliquam. Fusce auctor dictum lobortis. Vivamus tortor augue, convallis quis augue sit amet, laoreet tristique quam. Donec id volutpat orci. Suspendisse at mi vel elit accumsan porta ac ut diam. Nulla ut dapibus quam.
+
+
+
+
+<!-- ------------------------------------ -->
+<!--  Centered   Default           Right  -->
+<!--   Header    Aligned         Aligned  -->
+<!-- ----------- ------- ---------------  -->
+<!--    First    row                12.0  -->
+
+
+<!--   Second    row                 5.0  -->
+
+
+<!-- ------------------------------------ -->
+Table: Here's the caption\label{tab:one}.
+
+\begin{table}[h!]
+\caption{A caption}
+ \begin{tabular}{||c c c c||} 
+ \hline
+ Col1 & Col2 & Col2 & Col3 \\ [0.5ex] 
+ \hline\hline
+ 1 & 6 & 87837 & 787 \\ 
+ \hline
+ 2 & 7 & 78 & 5415 \\
+ \hline
+ 3 & 545 & 778 & 7507 \\
+ \hline
+ 4 & 545 & 18744 & 7560 \\
+ \hline
+ 5 & 88 & 788 & 6344 \\ [1ex] 
+ \hline
+\end{tabular}
+\end{table}
+
+
+
+![This s a figure showing a mouse. A real mouse [@RN10724] is shown here.\label{fig:mouse}](mouse.pdf)
+
+Suspendisse odio tortor, bibendum vel semper sit amet, euismod ac ante. Nunc nec dignissim turpis, ac blandit massa. Donec auctor massa ac vestibulum aliquam. Fusce auctor dictum lobortis. Vivamus tortor augue, convallis quis augue sit amet, laoreet tristique quam. Donec id volutpat orci. Suspendisse at mi vel elit accumsan porta ac ut diam. Nulla ut dapibus quam.
+
+# Conclusion
+As shown in Figure \ref{fig:plot} and Figure \ref{fig:mouse} and Table \ref{tab:one}. Duis nec purus sed neque porttitor tincidunt vitae quis augue. Donec porttitor aliquam ante, nec convallis nisl ornare eu. Morbi ut purus et justo commodo dignissim et nec nisl. Donec imperdiet tellus dolor, vel dignissim risus venenatis eu. Aliquam tempor imperdiet massa, nec fermentum tellus sollicitudin vulputate. Integer posuere porttitor pharetra. Praesent vehicula elementum diam a suscipit. Morbi viverra velit eget placerat pellentesque. Nunc congue augue non nisi ultrices tempor. 
+
+
+```{block, type='acks'}
+Suspendisse odio tortor, bibendum vel semper sit amet, euismod ac ante. Nunc nec dignissim turpis, ac blandit massa. Donec auctor massa ac vestibulum aliquam. 
+```
+
+# appendix
+Suspendisse odio tortor, bibendum vel semper sit amet, euismod ac ante. Nunc nec dignissim turpis, ac blandit massa. Donec auctor massa ac vestibulum aliquam. Fusce auctor dictum lobortis. Vivamus tortor augue, convallis quis augue sit amet, laoreet tristique quam. Donec id volutpat orci. Suspendisse at mi vel elit accumsan porta ac ut diam. Nulla ut dapibus quam.
+
+# References
+
